@@ -1,0 +1,27 @@
+{
+  "name": "wp-admin-task-manager",
+  "version": "1.0.0",
+  "description": "WP Admin Task Manager Plugin helps WordPress site admins and developers manage internal tasks, development notes, and maintenance reminders directly within the dashboard. Create, view, edit, and delete tasks to stay organized and keep your site on track — all without leaving WordPress.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "@wordpress/scripts": "^30.15.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
