@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #ff5c5c;
+    --primary-light: #ff88881f;
+    --background-light: #f6f9ff;
+    --text-dark: #333;
+    --accent-blue: #008cfa;
+    --shadow-light: rgba(0, 0, 0, 0.05);
+    --shadow-strong: rgba(0, 0, 0, 0.08);
+}
+
 /* Header CSS Started */
 #wpcontent {
     padding-left: 0px !important;
@@ -12,7 +22,7 @@
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px var(--shadow-light);
     margin: 20px 10px;
 }
 
@@ -22,16 +32,16 @@
 }
 
 .red-text {
-    color: #ff5c5c;
+    color: var(--primary-color);
 }
 
 .search-bar {
     display: flex;
     align-items: center;
-    background-color: #f6f9ff;
+    background-color: var(--background-light);
     border-radius: 10px;
     padding-left: 10px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 15px var(--shadow-strong);
     width: 400px;
 }
 
@@ -41,11 +51,11 @@
     background: transparent;
     width: 100%;
     font-size: 14px;
-    color: #333;
+    color: var(--text-dark);
 }
 
 .search-bar button {
-    background-color: #ff5c5c;
+    background-color: var(--primary-color);
     border: none;
     padding: 10px 12px;
     border-radius: 8px;
@@ -60,14 +70,14 @@
 }
 
 .icon-button {
-    color: #ff5c5c;
+    color: var(--primary-color);
     padding: 9px 10px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     position: relative;
     font-size: 16px;
-    background: #ff88881f;
+    background: var(--primary-light);
 }
 
 .header-date {
@@ -76,7 +86,7 @@
 }
 
 .header-date .date {
-    color: #008cfa;
+    color: var(--accent-blue);
     font-weight: bold;
     font-size: 12px;
 }
@@ -97,17 +107,15 @@
     display: inline-block;
 }
 
-
 .notification-badge {
     position: absolute;
     top: -5px;
     right: -2px;
     width: 8px;
     height: 8px;
-    background-color: #ff5c5c;
+    background-color: var(--primary-color);
     border-radius: 50%;
     border: 2px solid white;
-    /* optional white border to separate from icon */
 }
 
 /* Header CSS End */
