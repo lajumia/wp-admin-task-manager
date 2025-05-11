@@ -1,0 +1,113 @@
+/* Header CSS Started */
+#wpcontent {
+    padding-left: 0px !important;
+    /* background: hsl(222deg 100% 98.04%)!important; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin: 20px 10px;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.red-text {
+    color: #ff5c5c;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f6f9ff;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    width: 400px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-bar button {
+    background-color: #ff5c5c;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-button {
+    color: #ff5c5c;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+    background: #ff88881f;
+}
+
+.header-date {
+    text-align: right;
+    font-size: 14px;
+}
+
+.header-date .date {
+    color: #008cfa;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.day {
+    font-weight: bold;
+    text-align: left;
+}
+
+.search-bar input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.icon-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+
+.notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+    width: 8px;
+    height: 8px;
+    background-color: #ff5c5c;
+    border-radius: 50%;
+    border: 2px solid white;
+    /* optional white border to separate from icon */
+}
+
+/* Header CSS End */

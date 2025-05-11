@@ -46,4 +46,11 @@ function watm_enqueue_admin_assets($hook) {
         true
         
     );
+    
+    wp_enqueue_style(
+        'watm-admin',
+        plugin_dir_url(__FILE__) . 'admin/assets/css/watm.css',
+        [],
+        $index_dep['version']
+    );
 }
